@@ -1,0 +1,25 @@
+
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+
+*.tfstate
+*.backup
+*.tfvars
+*.json
+*.txt
+
+alicloud-ecs/.terraform/
+alicloud-bucket/.terraform/
+
+alicloud-ecs/terraform.tfvars
+alicloud-bucket/terraform.tfvars
+
+alicloud-ecs/terraform.tfstate
+alicloud-bucket/terraform.tfstate
+
+alicloud-ecs/terraform.tfstate.backup
+alicloud-bucket/terraform.tfstate.backup
+
+# use git rm --cached file.name to ignore commited file
